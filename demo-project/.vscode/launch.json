@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Backend (NestJS)",
+      "args": [
+        "start",
+        "--debug",
+        "--watch"
+      ],
+      "cwd": "${workspaceFolder}/backend",
+      "autoAttachChildProcesses": true,
+      "protocol": "inspector",
+      "runtimeExecutable": "npm"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Debug Frontend (Next.js)",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/frontend"
+    }
+  ]
+}

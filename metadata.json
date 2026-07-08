@@ -1,0 +1,5 @@
+{
+  "name": "TED Engine v01.09",
+  "description": "Standard Baku Industry Code Generator for NestJS, Next.js, Prisma, PostgreSQL, and TailwindCSS. Optimized for VS Code.",
+  "requestFramePermissions": []
+}
